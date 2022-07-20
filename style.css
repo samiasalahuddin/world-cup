@@ -1,7 +1,9 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@700&display=swap');
 
+/* header styles */
 /* common styles and utilities */
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -16,10 +18,10 @@ body {
 .top-banner {
     border: 2px solid;
     background-color: #161616;
-    width: 1321px;
+    width: 1400px;
     height: 646px;
     border-radius: 30px;
-    margin: 50px auto;
+    margin: 50px 500px;
 
 
 
@@ -48,7 +50,7 @@ body {
     width: 187px;
     height: 56px;
     display: flex;
-    background-color: orangered;
+    background-color: rgba(21, 68, 238, 0.64);
     align-items: center;
     justify-content: center;
     border-radius: 5px;
@@ -69,5 +71,135 @@ body {
 .player-image img {
     width: 581px;
     height: 645px;
+}
+
+/* main styles */
+/* common styles and utilities */
+
+.blogs {
+    display: flex;
+
+}
+
+.blogs {
+    margin: 50px 500px;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul {
+    width: 312px;
+    height: 312px;
+    background-color: black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+nav ul li {
+    border: 2px solid white;
+    background-color: white;
+    width: 252px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#button-3 {
+    background-color: rgba(21, 68, 238, 0.64);
+    border: none;
+}
+
+#third-button {
+    color: white;
+}
+
+
+
+.transfer-blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.transfer {
+    width: 312px;
+    height: 362px;
+    margin: 24px;
+    border: 2px solid rgb(222, 220, 220);
+    border-radius: 10px;
+}
+
+.transfer-button {
+    margin: 10px;
+    border-radius: 5px;
+    color: #161616
+}
+
+.live-text {
+    margin: 10px;
+    color: #161616
+}
+
+.fa-clock {
+    width: 20px;
+    height: 24px;
+    margin: 10px;
+    color: gray;
+}
+
+
+.fa-comment-dots {
+    width: 20px;
+    height: 24px;
+    margin-left: 30px;
+    margin-right: 10px;
+    color: gray;
+}
+
+/* footer styles */
+
+.footer-box {
+    width: 1600px;
+    height: 444px;
+    background-color: #161616;
+    margin: auto;
+}
+
+.footer-text {
+    color: #FFFFFF;
+    font-size: 3em;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 100px;
+    padding-right: 50px;
+}
+
+hr {
+    width: 75%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+footer ul {
+    display: grid;
+    grid-template-columns: repeat(6, 0.12fr);
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+footer li {
+    list-style: none;
+    color: #B9B9B9;
+    font: 16px;
+    font-weight: 500;
 
 }
