@@ -33,7 +33,6 @@ body {
     height: 240px;
 }
 
-
 .headings h3 {
     font-size: 16px;
     width: 500px;
@@ -59,7 +58,12 @@ body {
 
 .player-image {
     width: 50%;
+    transition: width 7s linear;
 
+}
+
+.player-image:hover {
+    width: 100%;
 }
 
 .player-image img {
