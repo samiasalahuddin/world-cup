@@ -83,6 +83,7 @@ nav li a {
     font-size: 20px;
     text-decoration: none;
     color: black;
+    text-align: center;
 }
 
 nav ul {
@@ -281,4 +282,116 @@ span {
 .fa-twitter {
     font-size: 2em;
     color: steelblue;
+}
+
+/* for tablet devices */
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+
+    .blogs {
+        display: block;
+    }
+
+    nav ul {
+        background: none;
+
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    nav ul li {
+        border: 2px solid gray;
+        padding: 10px 100px;
+        margin: 20px;
+    }
+
+
+    .transfer-blogs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+
+
+    }
+
+    .matches {
+        display: block;
+    }
+
+    .upcomings {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+
+    }
+
+    .view {
+        display: block;
+        width: 150px;
+        height: 40px;
+    }
+
+    footer ul {
+        display: grid;
+        grid-template-columns: repeat(3, .2fr);
+    }
+}
+
+
+/* for mobile device */
+@media only screen and (max-width:688px) {
+    .blogs {
+        display: block;
+    }
+
+    nav ul {
+        background: none;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    nav ul li {
+        border: 2px solid gray;
+        padding: 10px;
+    }
+
+    .transfer-blogs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+
+    .matches {
+        display: block;
+    }
+
+    .upcomings {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+
+    .view {
+        display: none;
+    }
+
+    footer ul {
+        display: block;
+        margin-left: 700px;
+
+
+    }
+
+    .footer-text {
+        padding-bottom: 1px;
+        padding-top: 5px;
+    }
+
 }
