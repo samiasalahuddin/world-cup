@@ -8,14 +8,8 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-
-.flexible-container {
-    display: flex;
-    width: 100%;
-
-}
-
 .top-banner {
+    display: flex;
     border: 2px solid;
     background-color: #161616;
     width: 1400px;
@@ -74,14 +68,10 @@ body {
 }
 
 /* main styles */
-/* common styles and utilities */
+/* world cup blog styles*/
 
 .blogs {
     display: flex;
-
-}
-
-.blogs {
     margin: 50px 500px;
 }
 
@@ -165,11 +155,77 @@ nav ul li {
     color: gray;
 }
 
+/* upcoming match styles */
+
+.matches {
+    display: flex;
+    margin: 50px 500px;
+}
+
+.upcomings {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.upcoming-match {
+    width: 300px;
+    height: 150px;
+    margin: 24px;
+    border: 2px solid rgb(222, 220, 220);
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.upcoming-match img {
+    width: 100px;
+    height: 55px;
+}
+
+.upcoming-match span {
+    color: #161616;
+    font-size: 16px;
+    font-weight: 700;
+    width: 22px;
+    height: 24px;
+    text-align: center;
+    padding: 20px;
+}
+
+.upcoming-match p {
+    color: rgb(88, 87, 87);
+
+}
+
+.view {
+    display: none;
+    margin: 50px 1150px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgba(5, 38, 154, 0.899);
+    padding: 20px 10px;
+
+}
+
+.view-button {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+
+
+
 /* footer styles */
 
 .footer-box {
     width: 1600px;
-    height: 444px;
+    height: 600px;
     background-color: #161616;
     margin: 50px 500px;
 }
@@ -180,7 +236,7 @@ nav ul li {
     font-weight: 600;
     text-align: center;
     padding-top: 100px;
-    padding-right: 50px;
+    padding-bottom: 50px;
 }
 
 hr {
@@ -201,5 +257,28 @@ footer li {
     color: #B9B9B9;
     font: 16px;
     font-weight: 500;
+}
 
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    color: #FFFFFF;
+    font-size: 2em;
+    padding: 50px;
+}
+
+.social-icon a {
+    color: #FFFFFF;
+    padding: 30px;
+}
+
+.fa-facebook,
+.fa-linkedin,
+.fa-twitter {
+    font-size: 2em;
+    color: steelblue;
 }
